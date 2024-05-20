@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width:420px) {
+        .bg{
+            background-size: 0%;
+            background-image: url(./assets/rectangle_4.jpg);
+        }
+        .bg2{
+            background-size: 0%;
+            background-image: url(./assets/rectangle_4.jpg);
+        }
+    }
+
+
+.bg{
+    background-image: url(./assets/rectangle_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2{
+    background-image: url(./assets/rectangle_3_2.jpg);
+    background-size:cover;
+}
+
+.bg3{
+    background-image: url('./assets/rectangle_1_copy_5.jpg');
+    background-size: cover;
+    height: 40vh;
+}
